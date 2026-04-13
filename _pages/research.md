@@ -30,13 +30,6 @@ This paper studies whether housing conditions, and in particular homeownership, 
 
 This project examines the transition to adulthood through the joint lens of housing and migration. It studies how leaving home, housing constraints, and spatial mobility interact in shaping early adult life-course decisions.
 
-Work in Progress
-======
-
-### *Leaving the Parental Home, Migration Background, and the Transition to Adulthood*  
-*(provisional title)*
-
-This project studies whether the timing and pattern of leaving the parental home differ by migration background, with a particular focus on household structure, mobility decisions, and transition-to-adulthood mechanisms.
 
 Research Fields
 ======
