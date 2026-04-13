@@ -21,14 +21,14 @@ repository               : "alidemir1995ad-alt/alidemir1995ad-alt.github.io"
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
-  avatar           : "profile.jpg"
+  avatar           : "ali_demir.jpg"
   name             : "Ali Demir"
   pronouns         :
   bio              : "PhD Candidate in Economics at Ruhr University Bochum. My research focuses on internal migration, marriage markets, divorce, and fertility."
   location         : "Bochum, Germany"
   employer         : "Ruhr University Bochum"
   uri              :
-  email            : "alid3mir@yahoo.com"
+  email            : "ali.demir-l1f@ruhr-uni-bochum.de"
 
   # Academic websites
 
