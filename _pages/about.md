@@ -15,7 +15,7 @@ My research interests are family economics, internal migration, marriage markets
 
 My job market paper examines the causal effect of female-biased internal migration on divorce outcomes in West Germany, with a focus on marriage-market mechanisms.
 
-You can download my CV.
+You can download my [CV](url:/files/Vitae.pdf).
 
 You can download my Job Market Paper.
 
