@@ -7,8 +7,6 @@ author_profile: true
 
 {% include base_path %}
 
-## Contact
-
 **Email:** [ali.demir-l1f@ruhr-uni-bochum.de](mailto:ali.demir-l1f@ruhr-uni-bochum.de)  
 **Secondary email:** [alid3mir@yahoo.com](mailto:alid3mir@yahoo.com)  
 **Phone:** +49 160 349 26 73  
