@@ -16,7 +16,7 @@ main:
     url: /publications/
 
   - title: "CV"
-    url: /files/Vitae.pdf
+    url: /cv.md
 
   - title: "Teaching"
     url: /teaching/
