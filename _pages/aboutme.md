@@ -3,8 +3,6 @@ layout: archive
 title: "About"
 permalink: /about/
 author_profile: true
-redirect_from:
-  - /aboutme/
 ---
 
 {% include base_path %}
