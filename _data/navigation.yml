@@ -10,7 +10,7 @@
 main:
 
   - title: "Job Market Paper"
-    url: /files/jmp.pdf
+    url: /jmp/
     
   - title: "Research"
     url: /publications/
