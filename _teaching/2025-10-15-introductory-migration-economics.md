@@ -14,7 +14,7 @@ location: "Bochum, Germany"
 **Time:** Wednesdays, 16:00–18:00  
 **Room:** GD 03/218  
 
-This bachelor-level seminar introduced students to the economics of migration with a strong emphasis on empirical identification, labour-market adjustment, and critical evaluation of applied research designs.
+This bachelor-level seminar introduced students to migration economics with a strong emphasis on empirical methods. The course covered migrant definitions and legal categories, selection and human capital models, labour-market adjustment, and causal research designs such as difference-in-differences, instrumental variables, and synthetic control. A dedicated workshop examined the Mariel Boatlift debate as a case study in empirical identification.
 
 The course combined **3 lectures**, **1 workshop**, and **10 presentation sessions**. Assessment was based on **presentation (80%)** and **participation (20%)**.
 
