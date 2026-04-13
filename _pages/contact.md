@@ -1,13 +1,15 @@
 ---
 layout: archive
-permalink: /contact/
 title: "Contact"
+permalink: /contact/
 author_profile: true
 ---
 
+{% include base_path %}
+
 ## Contact
 
-**Primary email:** [ali.demir-l1f@ruhr-uni-bochum.de](mailto:ali.demir-l1f@ruhr-uni-bochum.de)  
+**Email:** [ali.demir-l1f@ruhr-uni-bochum.de](mailto:ali.demir-l1f@ruhr-uni-bochum.de)  
 **Secondary email:** [alid3mir@yahoo.com](mailto:alid3mir@yahoo.com)  
 **Phone:** +49 160 349 26 73  
 
