@@ -9,56 +9,106 @@ redirect_from:
 
 {% include base_path %}
 
+You can download a PDF version of my CV [here](/files/CV_Ali_Demir.pdf).
+
+Contact
+======
+* Ali Demir
+* PhD Candidate in Economics, Ruhr University Bochum
+* Expected completion: September 2026
+* Email: [ali.demir-l1f@ruhr-uni-bochum.de](mailto:ali.demir-l1f@ruhr-uni-bochum.de)
+* Phone: +49 160 349 26 73
+
+Research Fields
+======
+* Applied Microeconomics
+* Migration Economics
+* Family Economics
+* Labor Economics
+
+Research
+======
+* **Job Market Paper**
+  * *German Internal Migration: A Marriage Market Perspective*
+
+* **Working Papers**
+  * *The Causal Effect of Housing on Fertility*
+  * *Transition to Adulthood: A Housing and Migration Perspective*
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* 2023--Present: **PhD in Economics**
+  * Ruhr University Bochum
+  * Regional Disparities and Economic Policy Research Training Group
+  * Expected completion: September 2026
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* 2021--2023: **M.Sc. in Behavioral and Applied Economics**
+  * University of Trento
+  * Exchange Year: M.Sc. in Public Economics, Free University of Berlin, 2022--2023
+  * Research Stay: Vienna University of Economics and Business, 2022
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2016--2021: **B.Sc. in Mathematics**
+  * Middle East Technical University
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
 Teaching
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
+* Wintersemester 2025/26: **Instructor, Introductory Migration Economics**
+  * Chair of Empirical Economics, Ruhr University Bochum
+  * Bachelor-level course taught in English
+
+Research Experience
 ======
-* Currently signed in to 43 different slack teams
+* July 2022--October 2022: **Research Intern**
+  * Vienna University of Economics and Business, Vienna, Austria
+  * Project: Overconfidence and Prosociality within Motivated Beliefs
+  * Supervisor: Prof. Dr. Susann Fiedler
+
+* January 2022--August 2022: **Student Research Assistant**
+  * University of Trento, Trento, Italy
+  * Project: Foreign Language Effect on Planning Fallacy
+  * Supervisor: Assoc. Prof. Dr. Matteo Ploner
+
+Honors and Awards
+======
+* UniTrento Merit Scholarship, 2021--2023
+* METU Alumni Association Merit Scholarship, 2016--2019
+* Honour Roll, Middle East Technical University, 2016--2017
+* Turkish Educational Foundation Merit Scholarship, 2013--2014
+
+Skills
+======
+* **Languages**
+  * Turkish (native)
+  * English (fluent)
+  * German (elementary)
+
+* **Software**
+  * Stata
+  * R
+  * Python
+  * LaTeX
+  * oTree
+
+Professional Service and Other Experience
+======
+* January 2022--Present: **Assistant Editor**
+  * behavioraleconomics.com
+  * United Kingdom, remote
+
+References
+======
+* **Prof. Dr. Thomas K. Bauer**
+  * Chair of Empirical Economics, Ruhr University Bochum, Bochum, Germany
+  * Email: [Thomas.Bauer@rub.de](mailto:Thomas.Bauer@rub.de)
+
+* **Prof. Dr. Arnaud Chevalier**
+  * Department of Economics, Royal Holloway University of London, London, UK
+  * Email: [arnaud.chevalier@rhul.ac.uk](mailto:arnaud.chevalier@rhul.ac.uk)
+
+* **Prof. Dr. Susann Fiedler**
+  * Department of Strategy and Innovation, Institute for Cognition and Behavior, Wirtschaftsuniversität Wien, Vienna, Austria
+  * Email: [susann.fiedler@wu.ac.at](mailto:susann.fiedler@wu.ac.at)
+
+* **Prof. Dr. Matteo Ploner**
+  * Department of Economics and Management, University of Trento, Trento, Italy
+  * Email: [matteo.ploner@unitn.it](mailto:matteo.ploner@unitn.it)
