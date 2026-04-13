@@ -14,7 +14,7 @@ location: "Bochum, Germany"
 **Time:** Wednesdays, 16:00–18:00  
 **Room:** GD 03/218  
 
-This course introduces key concepts, legal categories, and empirical methods in migration economics. It emphasizes how to read, present, and critically evaluate empirical research on labour markets in the context of migration.
+This bachelor-level seminar introduced students to the economics of migration with a strong emphasis on empirical identification, labour-market adjustment, and critical evaluation of applied research designs.
 
 The course combined **3 lectures**, **1 workshop**, and **10 presentation sessions**. Assessment was based on **presentation (80%)** and **participation (20%)**.
 
