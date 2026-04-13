@@ -21,4 +21,4 @@ You can download my Job Market Paper.
 
 ## Contact
 
-Email: YOUR_EMAIL
+Email: [ali.demir-l1f@ruhr-uni-bochum.de](mailto:ali.demir-l1f@ruhr-uni-bochum.de
