@@ -21,6 +21,9 @@ main:
   - title: "Teaching"
     url: /teaching/
 
+  - title: "About"
+    url: /aboutme/
+    
   - title: "Contact"
     url: /contact/
     
