@@ -8,6 +8,10 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
+
+  - title: "Job Market Paper"
+    url: /files/jmp.pdf
+    
   - title: "Research"
     url: /publications/
 
@@ -20,8 +24,4 @@ main:
   - title: "Contact"
     url: /contact/
     
-  # - title: "CV"
-  #   url: /cv-json/
-    
-  - title: "Guide"
-    url: /markdown/
+
