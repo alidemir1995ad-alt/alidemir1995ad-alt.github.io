@@ -43,7 +43,12 @@
 ;
 
 @media (min-width: 64em) {
-  .page {
+  .sidebar {
+    padding-right: 1rem;
+  }
+
+  .page,
+  .archive {
     padding-left: 2rem;
   }
 }
