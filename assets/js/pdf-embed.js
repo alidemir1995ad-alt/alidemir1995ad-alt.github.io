@@ -1,12 +1,18 @@
 /*
- * pdf-embed.js
- * Shows every page of a PDF in a scrollable box, using Mozilla's pdf.js.
- * Works on phones as well as desktops, and links inside the PDF stay
- * clickable. If pdf.js cannot load, it falls back to the browser's own
- * PDF viewer in an iframe.
+ * pdf-embed.js (version 2)
+ * Shows a PDF inside a web page using Mozilla's pdf.js.
+ *  - Short documents (up to 4 pages, e.g. a CV) are drawn in full; on
+ *    phones the pages simply stack.
+ *  - Long documents (e.g. a paper) stay in a scroll box on every screen,
+ *    and only the pages near the visible area are drawn, so a 50-page
+ *    paper does not slow the page down or exhaust a phone's memory.
+ *  - Links stay clickable: web and e-mail links open normally; links to
+ *    other places in the PDF (citations, tables, sections) scroll there.
+ *  - If pdf.js cannot load, the browser's own PDF viewer is used instead.
  *
  * Markup it expects (see _includes/pdf-embed.html):
  *   <div class="pdf-embed" data-src="/files/file.pdf">
+ *     <span class="pdf-embed__count"></span>
  *     <div class="pdf-embed__pages"></div>
  *   </div>
  */
@@ -15,6 +21,7 @@
 // pdfjs-dist package into your repo and set data-pdfjs="/path/to/it/" on
 // the .pdf-embed element.
 const PDFJS_BASE = "https://cdn.jsdelivr.net/npm/pdfjs-dist@6.3.289/";
+const LONG_DOC = 4; // more pages than this = "long document" behaviour
 
 let pdfjsPromise = null;
 
@@ -42,6 +49,7 @@ async function setup(box) {
   const src = box.dataset.src;
   const base = box.dataset.pdfjs || PDFJS_BASE;
   const pagesBox = box.querySelector(".pdf-embed__pages");
+  const counter = box.querySelector(".pdf-embed__count");
 
   let pdf;
   try {
@@ -60,83 +68,194 @@ async function setup(box) {
     return;
   }
 
-  // One wrapper per page: a canvas for the page image, plus links on top.
-  const pages = [];
-  for (let n = 1; n <= pdf.numPages; n++) {
-    const page = await pdf.getPage(n);
-    const links = (await page.getAnnotations()).filter(
-      (a) => a.subtype === "Link" && a.url
-    );
+  const total = pdf.numPages;
+  const long = total > LONG_DOC;
+  if (long) box.classList.add("pdf-embed--long");
+
+  // One placeholder per page, sized to the page's shape before anything is drawn.
+  const loaded = await Promise.all(
+    Array.from({ length: total }, (_, i) => pdf.getPage(i + 1))
+  );
+  pagesBox.textContent = "";
+  const pages = loaded.map((page, i) => {
+    const vp = page.getViewport({ scale: 1 });
     const wrap = document.createElement("div");
     wrap.className = "pdf-embed__page";
-    const canvas = document.createElement("canvas");
-    wrap.appendChild(canvas);
-    pages.push({ page, wrap, canvas, links });
+    wrap.style.aspectRatio = vp.width + " / " + vp.height;
+    pagesBox.appendChild(wrap);
+    return { num: i + 1, page, wrap, canvas: null, task: null, linked: false, near: !long };
+  });
+
+  // ---- drawing ----------------------------------------------------------
+  const maxDpr = long ? 2 : 3; // sharp on high-DPI screens, but memory-safe
+  let queue = Promise.resolve();
+
+  function schedule(p) {
+    queue = queue.then(() => draw(p)).catch(() => {});
+    return queue;
   }
-  pagesBox.textContent = "";
-  pages.forEach((p) => pagesBox.appendChild(p.wrap));
 
-  let drawnWidth = 0;
-  let generation = 0;
+  async function draw(p) {
+    if (!p.near) return; // scrolled away before its turn came
+    const cssWidth = p.wrap.clientWidth;
+    if (!cssWidth) return;
+    const dpr = Math.min(window.devicePixelRatio || 1, maxDpr);
+    const target = Math.round(cssWidth * dpr);
+    if (p.canvas && Math.abs(p.canvas.width - target) < 4) return; // already sharp
+    if (!p.linked) {
+      await addLinks(p);
+      p.linked = true;
+    }
+    if (!p.near) return; // scrolled away while the links were loading
+    const vp = p.page.getViewport({ scale: target / p.page.getViewport({ scale: 1 }).width });
+    const canvas = document.createElement("canvas");
+    canvas.width = Math.floor(vp.width);
+    canvas.height = Math.floor(vp.height);
+    p.task = p.page.render({ canvas, viewport: vp });
+    try {
+      await p.task.promise;
+    } catch (e) {
+      return; // cancelled because the page scrolled far away
+    } finally {
+      p.task = null;
+    }
+    if (!p.near) {
+      canvas.width = 0; // scrolled away while drawing: discard
+      return;
+    }
+    if (p.canvas) p.canvas.replaceWith(canvas);
+    else p.wrap.prepend(canvas);
+    p.canvas = canvas;
+  }
 
-  async function draw() {
-    const style = getComputedStyle(pagesBox);
-    const width = Math.floor(
-      pagesBox.clientWidth -
-        parseFloat(style.paddingLeft) -
-        parseFloat(style.paddingRight)
-    );
-    if (width <= 0 || Math.abs(width - drawnWidth) < 2) return;
-    drawnWidth = width;
-    const gen = ++generation;
-    // Render at screen resolution so text stays sharp on high-DPI screens.
-    const dpr = Math.min(window.devicePixelRatio || 1, 3);
-
-    for (const p of pages) {
-      const scale = width / p.page.getViewport({ scale: 1 }).width;
-      const cssViewport = p.page.getViewport({ scale });
-      const pixelViewport = p.page.getViewport({ scale: scale * dpr });
-
-      // Draw into a fresh canvas and swap it in, so resizing never flashes blank.
-      const canvas = document.createElement("canvas");
-      canvas.width = Math.floor(pixelViewport.width);
-      canvas.height = Math.floor(pixelViewport.height);
-      await p.page.render({ canvas, viewport: pixelViewport }).promise;
-      if (gen !== generation) return; // a newer resize took over
-
-      p.wrap.style.width = width + "px";
-      p.canvas.replaceWith(canvas);
-      p.canvas = canvas;
-
-      // Clickable areas over the PDF's own links.
-      p.wrap.querySelectorAll(".pdf-embed__link").forEach((el) => el.remove());
-      for (const link of p.links) {
-        const [x1, y1] = cssViewport.convertToViewportPoint(link.rect[0], link.rect[1]);
-        const [x2, y2] = cssViewport.convertToViewportPoint(link.rect[2], link.rect[3]);
-        const a = document.createElement("a");
-        a.className = "pdf-embed__link";
-        a.href = link.url;
-        a.title = link.url.replace(/^mailto:/, "");
-        if (!link.url.startsWith("mailto:")) {
-          a.target = "_blank";
-          a.rel = "noopener";
-        }
-        a.style.left = Math.min(x1, x2) + "px";
-        a.style.top = Math.min(y1, y2) + "px";
-        a.style.width = Math.abs(x2 - x1) + "px";
-        a.style.height = Math.abs(y2 - y1) + "px";
-        p.wrap.appendChild(a);
-      }
+  function release(p) {
+    if (p.task) p.task.cancel();
+    if (p.canvas) {
+      p.canvas.width = 0; // frees the pixel memory immediately
+      p.canvas.remove();
+      p.canvas = null;
     }
   }
 
-  await draw();
+  // ---- links --------------------------------------------------------------
+  async function addLinks(p) {
+    const vp = p.page.getViewport({ scale: 1 });
+    const annots = await p.page.getAnnotations();
+    for (const a of annots) {
+      if (a.subtype !== "Link" || !(a.url || a.dest)) continue;
+      const [x1, y1] = vp.convertToViewportPoint(a.rect[0], a.rect[1]);
+      const [x2, y2] = vp.convertToViewportPoint(a.rect[2], a.rect[3]);
+      const el = document.createElement("a");
+      el.className = "pdf-embed__link";
+      // Percentages, so links stay in place at any width without redrawing.
+      el.style.left = (Math.min(x1, x2) / vp.width) * 100 + "%";
+      el.style.top = (Math.min(y1, y2) / vp.height) * 100 + "%";
+      el.style.width = (Math.abs(x2 - x1) / vp.width) * 100 + "%";
+      el.style.height = (Math.abs(y2 - y1) / vp.height) * 100 + "%";
+      if (a.url) {
+        el.href = a.url;
+        el.title = a.url.replace(/^mailto:/, "");
+        if (!a.url.startsWith("mailto:")) {
+          el.target = "_blank";
+          el.rel = "noopener";
+        }
+      } else {
+        el.href = "#";
+        el.title = "Go to this place in the document";
+        el.addEventListener("click", (e) => {
+          e.preventDefault();
+          goTo(a.dest);
+        });
+      }
+      p.wrap.appendChild(el);
+    }
+  }
 
-  // Redraw when the box changes width (window resize, phone rotation).
+  async function goTo(dest) {
+    const explicit = typeof dest === "string" ? await pdf.getDestination(dest) : dest;
+    if (!Array.isArray(explicit)) return;
+    const ref = explicit[0];
+    const index = typeof ref === "number" ? ref : await pdf.getPageIndex(ref);
+    const target = pages[index];
+    if (!target) return;
+    // Scroll to the exact spot on the page when the link says where.
+    let offset = 0;
+    const kind = explicit[1] && explicit[1].name;
+    const top = kind === "XYZ" ? explicit[3] : kind === "FitH" || kind === "FitBH" ? explicit[2] : null;
+    if (typeof top === "number") {
+      const vp = target.page.getViewport({ scale: 1 });
+      const [, y] = vp.convertToViewportPoint(0, top);
+      offset = (y / vp.height) * target.wrap.clientHeight;
+    }
+    if (long) {
+      pagesBox.scrollTo({ top: target.wrap.offsetTop + offset - 8, behavior: "smooth" });
+    } else {
+      const y = target.wrap.getBoundingClientRect().top + window.scrollY + offset - 80;
+      window.scrollTo({ top: y, behavior: "smooth" });
+    }
+  }
+
+  // ---- short documents: draw everything ---------------------------------
+  if (!long) {
+    for (const p of pages) await schedule(p);
+    if (counter) counter.textContent = total > 1 ? total + " pages" : "";
+  } else {
+    // ---- long documents: draw near the visible area, free far pages -----
+    const byWrap = new Map(pages.map((p) => [p.wrap, p]));
+    const near = new IntersectionObserver(
+      (entries) => {
+        for (const e of entries) {
+          const p = byWrap.get(e.target);
+          p.near = e.isIntersecting;
+          if (p.near) schedule(p);
+        }
+      },
+      { root: pagesBox, rootMargin: "100% 0px" }
+    );
+    const far = new IntersectionObserver(
+      (entries) => {
+        for (const e of entries) if (!e.isIntersecting) release(byWrap.get(e.target));
+      },
+      { root: pagesBox, rootMargin: "400% 0px" }
+    );
+    pages.forEach((p) => {
+      near.observe(p.wrap);
+      far.observe(p.wrap);
+    });
+
+    // "Page 3 of 46" indicator.
+    let ticking = false;
+    const updateCounter = () => {
+      ticking = false;
+      const line = pagesBox.scrollTop + pagesBox.clientHeight / 3;
+      let current = 1;
+      for (const p of pages) {
+        if (p.wrap.offsetTop <= line) current = p.num;
+        else break;
+      }
+      if (counter) counter.textContent = "Page " + current + " of " + total;
+    };
+    pagesBox.addEventListener("scroll", () => {
+      if (!ticking) {
+        ticking = true;
+        requestAnimationFrame(updateCounter);
+      }
+    });
+    updateCounter();
+  }
+
+  // Redraw sharper or smaller when the box changes width (resize, rotation).
+  let lastWidth = pagesBox.clientWidth;
   let timer;
   new ResizeObserver(() => {
     clearTimeout(timer);
-    timer = setTimeout(draw, 150);
+    timer = setTimeout(() => {
+      if (Math.abs(pagesBox.clientWidth - lastWidth) < 2) return;
+      lastWidth = pagesBox.clientWidth;
+      pages.forEach((p) => {
+        if (p.canvas || !long) schedule(p);
+      });
+    }, 200);
   }).observe(pagesBox);
 }
 
