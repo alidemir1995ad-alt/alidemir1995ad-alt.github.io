@@ -14,7 +14,7 @@ This paper studies how female-biased East-to-West internal migration after Germa
 **Status:** Job Market Paper  
 **Fields:** Migration Economics, Family Economics, Labor Economics, Applied Microeconomics  
 
-[Download PDF](/files/Demir_JMP.pdf)
+[Download PDF](/files/Demir_JMP.pdf) &nbsp;&middot;&nbsp; [Read the full paper on this page](#full-paper)
 
 ### Abstract
 
@@ -42,3 +42,6 @@ The pattern is directionally consistent with a receiving-market-availability mec
 - Cumulative migration exposure to young East German women
 - Instrumental-variables design using historically mediated variation in migrant exposure
 
+### Full Paper
+
+{% include pdf-embed.html file="/files/Demir_JMP.pdf" %}
