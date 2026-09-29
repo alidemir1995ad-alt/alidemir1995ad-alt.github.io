@@ -43,10 +43,3 @@ This paper examines whether homeownership is associated with fertility outcomes 
 This paper studies whether local rental costs at the parental-home location predict young adults’ first exit from the parental home in Germany. The main finding is cautious: once parental-home postal-code fixed effects and strong regional-year controls are included, there is no robust evidence that local rents explain first-exit timing or systematic spatial substitution across move types.
 
 
-Research Fields
-======
-
-* Applied Microeconomics
-* Migration Economics
-* Family Economics
-* Labor Economics
