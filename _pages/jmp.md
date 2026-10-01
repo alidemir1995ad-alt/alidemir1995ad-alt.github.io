@@ -12,10 +12,6 @@ excerpt: "German Internal Migration: A Marriage Market Perspective. Ali Demir's 
 
 This paper examines whether young, female-skewed East–West migration after German reunification affected divorce rates in receiving West German districts. It connects migration and family economics using an original historical dataset and a shift-share instrumental-variable design.
 
-**Status:** Job Market Paper  
-**Fields:** Migration Economics, Family Economics, Regional Economics, Applied Microeconomics  
-**Data:** 320 West German districts, 1985–2007  
-
 [Download PDF](/files/Demir_JMP.pdf) &nbsp;&middot;&nbsp; [Read the full paper on this page](#full-paper)
 
 ### Abstract
