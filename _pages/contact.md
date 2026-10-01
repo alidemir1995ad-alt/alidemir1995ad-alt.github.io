@@ -13,7 +13,6 @@ I welcome enquiries about postdoctoral and research economist positions in Germa
 **Email:** [alidemir1995@protonmail.com](mailto:alidemir1995@protonmail.com)  
 **University email:** [ali.demir-l1f@ruhr-uni-bochum.de](mailto:ali.demir-l1f@ruhr-uni-bochum.de)  
 **LinkedIn:** [linkedin.com/in/alid3mir](https://www.linkedin.com/in/alid3mir/)  
-**Phone:** +49 160 349 26 73  
 
 ## Academic affiliation
 
