@@ -3,16 +3,18 @@ layout: archive
 title: "Job Market Paper"
 permalink: /job-market-paper/
 author_profile: true
+excerpt: "German Internal Migration: A Marriage Market Perspective. Ali Demir's job market paper on post-reunification East–West migration and divorce in West Germany."
 ---
 
 {% include base_path %}
 
 ## German Internal Migration: A Marriage Market Perspective
 
-This paper studies how female-biased East-to-West internal migration after German reunification affected marital stability in receiving West German districts. Using district-level panel data on divorce outcomes and migration exposure, I examine whether local marriage-market conditions changed in ways that altered divorce behavior.
+This paper examines whether young, female-skewed East–West migration after German reunification affected divorce rates in receiving West German districts. It connects migration and family economics using an original historical dataset and a shift-share instrumental-variable design.
 
 **Status:** Job Market Paper  
-**Fields:** Migration Economics, Family Economics, Labor Economics, Applied Microeconomics  
+**Fields:** Migration Economics, Family Economics, Regional Economics, Applied Microeconomics  
+**Data:** 320 West German districts, 1985–2007  
 
 [Download PDF](/files/Demir_JMP.pdf) &nbsp;&middot;&nbsp; [Read the full paper on this page](#full-paper)
 
@@ -22,11 +24,17 @@ This paper investigates whether young, female-skewed East--West migration after 
 
 ### Research Question
 
-How did female-biased East-to-West internal migration after German reunification affect divorce outcomes in receiving West German districts?
+Did exposure to female-skewed East–West migration after German reunification affect divorce rates in receiving West German districts?
 
 ### Main Finding
 
 In the preferred controlled IV specification, districts with greater predicted exposure to young East–West migration, expressed in imputed young-female units, experienced lower post-reunification divorce rates. A one-standard-deviation increase in predicted exposure corresponds to roughly 0.26 fewer annual divorces per 1,000 residents, about 10 percent of the sample mean.
+
+This finding concerns predicted migration exposure in the preferred specification. It does not separately identify the effect of female migration alone, and the filing-side evidence does not isolate a particular marriage-market mechanism.
+
+### Data contribution
+
+I assembled divorce, migration and population statistics from historical state statistical publications, digitised partly non-machine-readable sources, and harmonised the data to stable district boundaries. The resulting panel makes it possible to study receiving regions before and after reunification.
 
 ### Full Paper
 

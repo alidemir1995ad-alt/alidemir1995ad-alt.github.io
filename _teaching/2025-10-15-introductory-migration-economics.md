@@ -6,13 +6,13 @@ permalink: /teaching/introductory-migration-economics/
 venue: "Ruhr University Bochum, Chair of Empirical Economics"
 date: 2025-10-15
 location: "Bochum, Germany"
+excerpt: "Designed and taught by Ali Demir in winter semester 2025/26. English-language undergraduate seminar; syllabus and lecture notes available."
 ---
 
-**Term:** Wintersemester 2025/26  
+**Role:** Instructor and course designer  
+**Term:** Winter semester 2025/26  
 **Language:** English  
 **Audience:** Bachelor students  
-**Time:** Wednesdays, 16:00–18:00  
-**Room:** GD 03/218  
 
 This bachelor-level seminar introduced students to migration economics with a strong emphasis on empirical methods. The course covered migrant definitions and legal categories, selection and human capital models, labour-market adjustment, and causal research designs such as difference-in-differences, instrumental variables, and synthetic control. A dedicated workshop examined the Mariel Boatlift debate as a case study in empirical identification.
 

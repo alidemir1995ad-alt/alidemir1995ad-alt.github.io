@@ -1,6 +1,7 @@
 ---
 permalink: /
-title: ""
+title: "Applied Microeconomics"
+excerpt: "Ali Demir is a PhD candidate in Economics at Ruhr University Bochum, on the 2026–27 economics job market for postdoctoral and research economist positions in Germany."
 author_profile: true
 redirect_from:
   - /about/
@@ -8,18 +9,20 @@ redirect_from:
 ---
 {% include base_path %}
 
-I am a PhD Candidate in Economics at Ruhr University Bochum and a doctoral researcher in the DFG-funded Research Training Group 2484 “Regional Disparities and Economic Policy”. I work under the supervision of Prof. Dr. Thomas K. Bauer and expect to complete my PhD in September 2026.
+**I am on the 2026–27 economics job market, seeking postdoctoral and research economist positions in Germany.**
 
-I am currently on the market for postdoctoral and research-oriented early-career academic positions.
+[CV (PDF)](/files/Demir_Vitae.pdf){: .btn .btn--primary}
+[Job market paper (PDF)](/files/Demir_JMP.pdf){: .btn .btn--inverse}
+[Contact](mailto:alidemir1995@protonmail.com){: .btn .btn--inverse}
 
-My research lies in applied microeconomics, with a focus on migration economics, family economics, housing, and regional inequality. My dissertation, *Housing, Migration, and Family Formation: Essays in Empirical Family and Regional Economics*, studies how migration and housing-market conditions shape family behavior across three margins: divorce, fertility, and leaving the parental home.
+I am a PhD candidate in Economics at Ruhr University Bochum, supervised by Thomas K. Bauer and Arnaud Chevalier. I submitted my dissertation in July 2026 and expect to defend it in October 2026. My doctoral research was supported by the DFG Research Training Group 2484, “Regional Disparities and Economic Policy”.
 
-My job market paper, *German Internal Migration: A Marriage Market Perspective*, studies whether young, female-skewed East-to-West migration after German reunification affected divorce rates in receiving West German districts.
+My research interests lie in applied microeconomics, particularly labour and family economics, migration, housing, and regional and urban economics. My current work examines migration and housing markets in relation to divorce, fertility and leaving the parental home.
 
-[Download CV](/files/Demir_Vitae.pdf)  
-[Download Job Market Paper](/files/Demir_JMP.pdf)
+My [job market paper](/job-market-paper/), *German Internal Migration: A Marriage Market Perspective*, examines East–West migration after German reunification and divorce in receiving West German districts. I constructed an original panel covering 320 districts from 1985 to 2007 by digitising historical statistical publications and harmonising territorial boundaries. My [other papers](/research/) link German household panel data with regional and local housing-market information.
+
+I bring experience in independent empirical research, historical data construction, restricted-access geocoded data and microeconometric analysis using Stata, R and Python. I also designed and taught [Introductory Migration Economics](/teaching/introductory-migration-economics/), an English-language undergraduate seminar.
 
 ## Contact
 
-Email: [ali.demir-l1f@ruhr-uni-bochum.de](mailto:ali.demir-l1f@ruhr-uni-bochum.de)
-
+For research opportunities and enquiries: [alidemir1995@protonmail.com](mailto:alidemir1995@protonmail.com).

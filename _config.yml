@@ -12,7 +12,7 @@ site_theme               : "air"
 title                    : "Ali Demir"
 title_separator          : "|"
 name                     : &name "Ali Demir"
-description              : &description "PhD Candidate in Economics | Ruhr University Bochum | Research in internal migration, marriage markets, divorce, and fertility"
+description              : &description "Ali Demir, PhD candidate in Economics at Ruhr University Bochum. Applied microeconomics; seeking postdoctoral and research economist positions in Germany."
 url                      : "https://ali-demir.org"
 baseurl                  : ""
 repository               : "alidemir1995ad-alt/alidemir1995ad-alt.github.io"
@@ -24,11 +24,11 @@ author:
   avatar           : "profile.jpg"
   name             : "Ali Demir"
   pronouns         :
-  bio              : "PhD Candidate in Economics.<br><br>On the market for postdoctoral and research-oriented academic positions.<br><br>Research: migration, family, and labor economics."
+  bio              : "PhD Candidate in Economics.<br><br>Applied microeconomics.<br><br>2026–27 economics job market."
   location         : "Bochum, Germany"
   employer         : "Ruhr University Bochum"
   uri              :
-  email            : "ali.demir-l1f@ruhr-uni-bochum.de"
+  email            : "alidemir1995@protonmail.com"
 
   # Academic websites
 
@@ -101,13 +101,14 @@ facebook:
   app_id                 :
   publisher              :
 og_image                 :  # Social media default site image
-og_description           :  # Social media default site image description
+og_description           : *description
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : "Person"
   name                   : "Ali Demir"
-  links: # An array of links to social media profiles
+  links:
+    - "https://www.linkedin.com/in/alid3mir/"
 
 
 # Analytics
