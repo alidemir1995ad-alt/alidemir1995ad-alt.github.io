@@ -12,11 +12,7 @@ My research interests lie in applied microeconomics, particularly labour and fam
 
 ## Job Market Paper
 
-### German Internal Migration: A Marriage Market Perspective
-
-**Status:** Job Market Paper  
-**Fields:** Migration Economics, Family Economics, Regional Economics, Applied Microeconomics  
-**Methods:** Shift-share IV, district-year panel data, historical data construction  
+### German Internal Migration: A Marriage Market Perspective 
 
 This paper examines whether young, female-skewed East–West migration after German reunification affected divorce rates in receiving West German districts. I constructed an original panel covering 320 districts from 1985 to 2007 by digitising historical statistical publications and harmonising territorial boundaries. A shift-share instrumental-variable design combines historical East-linked settlement shares with a female-weighted East German labour-market push component. The preferred specification estimates lower divorce rates in districts with greater predicted exposure; the evidence does not separately identify an effect of female migration alone or a particular divorce-filing mechanism.
 
@@ -27,17 +23,9 @@ This paper examines whether young, female-skewed East–West migration after Ger
 
 ### Housing Security and Family Expansion: Evidence from German Homeownership
 
-**Fields:** Family Economics, Housing Economics, Applied Microeconomics  
-**Data:** SOEP longitudinal data  
-**Methods:** Instrumental variables, parity-specific fertility transitions  
-
 This paper studies homeownership and fertility among women in West Germany using SOEP panel data and parental homeownership as an instrument. It distinguishes entry into parenthood from transitions to second and third births. The clearest evidence is a positive estimate for the transition from one child to two, while the estimate for the number of children observed is imprecise. The analysis does not establish an effect on completed family size.
 
 ### Transition to Adulthood: Local Rents and Leaving the Parental Home
-
-**Fields:** Family Economics, Housing Economics, Migration and Regional Economics  
-**Data:** SOEP and RWI-GEO-REDX  
-**Methods:** Longitudinal analysis, postal-code and year fixed effects  
 
 This paper links SOEP residence histories to quality-adjusted rent indices at the parental-home postal code to study when and where young adults first leave the parental home, with variation by migration background. It distinguishes differences across locations from changes within locations over time. Higher rents predict earlier exits across locations, whereas the within-postal-code association is weakly negative and imprecise for natives. These patterns do not establish a causal effect of rents on exit timing.
 
