@@ -9,7 +9,7 @@ redirect_from:
 ---
 {% include base_path %}
 
-**I am on the 2026–27 economics job market, seeking postdoctoral and research economist positions in Germany.**
+**I am on the 2026–27 economics job market.**
 
 [CV (PDF)](/files/Demir_Vitae.pdf){: .btn .btn--primary}
 [Job market paper (PDF)](/files/Demir_JMP.pdf){: .btn .btn--inverse}
