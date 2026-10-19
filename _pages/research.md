@@ -8,7 +8,7 @@ excerpt: "Working papers by Ali Demir on East–West migration and divorce, home
 
 {% include base_path %}
 
-My research interests lie in applied microeconomics, particularly labour and family economics, migration, housing, and regional and urban economics. My current papers study family transitions in Germany using original historical regional data and the German Socio-Economic Panel (SOEP).
+My research interests lie in applied microeconomics, particularly labour and family economics, migration, and regional economics. My current papers study family transitions in Germany using original historical regional data and the German Socio-Economic Panel (SOEP).
 
 ## Job Market Paper
 
