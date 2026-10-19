@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Applied Microeconomics"
-excerpt: "Ali Demir is a PhD candidate in Economics at Ruhr University Bochum, on the 2026–27 economics job market for postdoctoral and research economist positions in Germany."
+excerpt: "Ali Demir is an Applied Economist, on the 2026–27 economics job market."
 author_profile: true
 redirect_from:
   - /about/
