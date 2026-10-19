@@ -15,8 +15,6 @@ redirect_from:
 [Job market paper (PDF)](/files/Demir_JMP.pdf){: .btn .btn--inverse}
 [Contact](mailto:alidemir1995@protonmail.com){: .btn .btn--inverse}
 
-I am a PhD candidate in Economics at Ruhr University Bochum.
-
 My research interests lie in applied microeconomics, particularly labour and family economics, migration, housing, and regional and urban economics.
 
 My [job market paper](/job-market-paper/), *German Internal Migration: A Marriage Market Perspective*, examines East–West migration after German reunification and divorce in receiving West German districts. I constructed an original panel covering 320 districts from 1985 to 2007 by digitising historical statistical publications and harmonising territorial boundaries. My [other papers](/research/) link German household panel data with regional and local housing-market information.
