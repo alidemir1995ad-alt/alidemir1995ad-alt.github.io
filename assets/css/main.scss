@@ -42,9 +42,22 @@
     "vendor/font-awesome/brands"
 ;
 
+
+/* Wider academic website layout on desktop */
 @media screen and (min-width: 1024px) {
+
+  /* Increase the total website and navigation width */
+  #main,
+  .masthead__inner-wrap {
+    max-width: 1480px !important;
+  }
+
+  /* Keep a gap beside the profile, but use the right-side space */
   .page,
   .archive {
-    padding-left: 4rem !important;
+    padding-left: 2rem !important;
+    padding-right: 0 !important;
   }
+
 }
+
