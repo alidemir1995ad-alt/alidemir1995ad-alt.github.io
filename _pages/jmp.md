@@ -10,27 +10,10 @@ excerpt: "German Internal Migration: A Marriage Market Perspective. Ali Demir's 
 
 ## German Internal Migration: A Marriage Market Perspective
 
-This paper examines whether young, female-skewed East–West migration after German reunification affected divorce rates in receiving West German districts. It connects migration and family economics using an original historical dataset and a shift-share instrumental-variable design.
-
 [Download PDF](/files/Demir_JMP.pdf) &nbsp;&middot;&nbsp; [Read the full paper on this page](#full-paper)
 
 ### Abstract
-
-This paper investigates whether young, female-skewed East--West migration after German reunification altered marital stability in receiving West German districts. I construct district-year measures of cumulative exposure to young East German migrants, expressed in imputed young-female units and scaled by fixed pre-treatment population, and relate this exposure to district-level divorce rates. To address endogenous migrant sorting, I use a historical-share-by-push instrument that interacts pre-reunification East-linked settlement shares with a cumulative female-weighted East German labor-market push component. The preferred IV estimates show that districts with greater predicted exposure experienced lower post-reunification divorce rates after conditioning on state-year shocks and predetermined district characteristics. The evidence supports a stabilizing relationship between predicted young East--West migration exposure and divorce rates in receiving districts, while the mechanism evidence does not isolate a purely female-specific or unilateral filing channel.
-
-### Research Question
-
-Did exposure to female-skewed East–West migration after German reunification affect divorce rates in receiving West German districts?
-
-### Main Finding
-
-In the preferred controlled IV specification, districts with greater predicted exposure to young East–West migration, expressed in imputed young-female units, experienced lower post-reunification divorce rates. A one-standard-deviation increase in predicted exposure corresponds to roughly 0.26 fewer annual divorces per 1,000 residents, about 10 percent of the sample mean.
-
-This finding concerns predicted migration exposure in the preferred specification. It does not separately identify the effect of female migration alone, and the filing-side evidence does not isolate a particular marriage-market mechanism.
-
-### Data contribution
-
-I assembled divorce, migration and population statistics from historical state statistical publications, digitised partly non-machine-readable sources, and harmonised the data to stable district boundaries. The resulting panel makes it possible to study receiving regions before and after reunification.
+This paper investigates whether the large young East–West migration after German reunification altered marriage formation and marital stability in receiving West German districts. I construct a newly assembled district panel of marriage, divorce and birth outcomes over 1985–2007 with observed cumulative young-adult arrivals from 1991 onward, scaled by fixed pre-reunification population. To address endogenous destination choice, I construct a shift-share instrument by multiplying each district's 1961 East-linked settlement share by the cumulative rate of young-adult arrivals from East Germany, calculated across sample districts in the other West German states. The preferred IV estimates show that districts receiving one additional young arrival per 1,000 residents had 0.027 fewer annual divorces per 1,000 residents, about 9 percent of the mean per standard deviation of exposure. The corresponding marriage estimate is -0.021, and statistically imprecise. Event studies on balanced district panels extending to the early 1980s do not reject the null of no differential pre-reunification divorce trends. Districts with stronger historical ties did not experience faster income growth after reunification, and the estimate is robust to controlling for income. Filing-side analyses do not detect a statistically significant difference between wife- and husband-initiated divorce responses. The evidence points to lower local divorce rates in more exposed districts.
 
 ### Full Paper
 
