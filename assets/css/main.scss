@@ -43,21 +43,26 @@
 ;
 
 
-/* Wider academic website layout on desktop */
+/* Balanced wide academic layout on desktop */
 @media screen and (min-width: 1024px) {
 
-  /* Increase the total website and navigation width */
+  /* 1. Cap total width and add symmetric left/right breathing room to the outer containers */
   #main,
-  .masthead__inner-wrap {
-    max-width: 1350px !important;
+  .masthead__inner-wrap,
+  .page__footer footer {
+    box-sizing: border-box !important;
+    max-width: 1280px !important;
+    padding-left: 4.5rem !important;
+    padding-right: 4.5rem !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
 
-  /* Keep a gap beside the profile, but use the right-side space */
+  /* 2. Maintain space between the left author sidebar and main text, plus a small right buffer */
   .page,
   .archive {
     padding-left: 2rem !important;
-    padding-right: 0 !important;
+    padding-right: 1.5rem !important;
   }
 
 }
-
