@@ -16,7 +16,7 @@ I welcome enquiries about postdoctoral and research economist positions in Germa
 
 ## Academic background
 
-PhD in Economics, Ruhr University Bochum, October 2026 (*magna cum laude*).
+PhD in Economics, Ruhr University Bochum, October 2026.
 
 Research Associate, Chair of Empirical Economics, Ruhr University Bochum, October 2023–September 2026.
 
