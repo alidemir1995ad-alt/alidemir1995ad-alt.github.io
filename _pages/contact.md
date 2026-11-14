@@ -14,11 +14,9 @@ I welcome enquiries about postdoctoral and research economist positions in Germa
 **University email:** [ali.demir-l1f@ruhr-uni-bochum.de](mailto:ali.demir-l1f@ruhr-uni-bochum.de)  
 **LinkedIn:** [linkedin.com/in/alid3mir](https://www.linkedin.com/in/alid3mir/)  
 
-## Academic affiliation
+## Academic background
 
-Chair of Empirical Economics  
-Ruhr University Bochum  
-Universitätsstraße 150  
-44801 Bochum  
-Germany
+PhD in Economics, Ruhr University Bochum, October 2026 (*magna cum laude*).
+
+Research Associate, Chair of Empirical Economics, Ruhr University Bochum, October 2023–September 2026.
 
