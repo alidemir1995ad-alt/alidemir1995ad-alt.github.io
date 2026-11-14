@@ -8,7 +8,7 @@ excerpt: "Ali Demir's academic CV: education, empirical research, teaching and t
 
 {% include base_path %}
 
-**PhD in Economics, Ruhr University Bochum, October 2026 — *magna cum laude*.**
+**PhD in Economics, Ruhr University Bochum, October 2026.**
 
 Last updated: November 2026.
 
