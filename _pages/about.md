@@ -13,7 +13,7 @@ redirect_from:
 
 [CV (PDF)](/files/Demir_Vitae.pdf){: .btn .btn--primary}
 [Job market paper (PDF)](/files/Demir_JMP.pdf){: .btn .btn--inverse}
-[Contact](mailto:alidemir1995@protonmail.com){: .btn .btn--inverse}
+[Contact](mailto:Ali.Demir-l1f@ruhr-uni-bochum.de){: .btn .btn--inverse}
 
 I am an applied microeconomist working on **migration, housing and family formation**. I completed my PhD in Economics at **Ruhr University Bochum in October 2026**, supervised by Thomas K. Bauer and Arnaud Chevalier. My primary fields are labor and demographic economics, with secondary interests in urban and regional economics.
 
@@ -23,4 +23,4 @@ My other [research](/research/) uses the German Socio-Economic Panel (SOEP-Core)
 
 ## Contact
 
-[alidemir1995@protonmail.com](mailto:alidemir1995@protonmail.com)
+[Ali.Demir-l1f@ruhr-uni-bochum.de](mailto:Ali.Demir-l1f@ruhr-uni-bochum.de)
