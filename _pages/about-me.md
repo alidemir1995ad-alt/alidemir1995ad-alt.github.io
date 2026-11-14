@@ -8,7 +8,7 @@ excerpt: "Ali Demir's academic background in mathematics, behavioural and applie
 
 {% include base_path %}
 
-I am an applied microeconomist. I completed my PhD in Economics at Ruhr University Bochum in October 2026 (*magna cum laude*), supervised by Thomas K. Bauer and Arnaud Chevalier. My dissertation is titled *Housing, Migration, and Family Formation*.
+I am an applied microeconomist. I completed my PhD in Economics at Ruhr University Bochum in October 2026, supervised by Thomas K. Bauer and Arnaud Chevalier. My dissertation is titled *Housing, Migration, and Family Formation*.
 
 My primary research fields are labor and demographic economics, particularly migration, fertility and family formation. My secondary fields are urban and regional economics, with a focus on housing. My dissertation studies migration and housing markets in relation to divorce, fertility and leaving the parental home.
 
