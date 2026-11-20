@@ -8,7 +8,7 @@ excerpt: "Working papers by Ali Demir on East–West migration and divorce, home
 
 {% include base_path %}
 
-My research is in **labor and demographic economics**, particularly migration, fertility and family formation, and **urban and regional economics**, with a focus on housing. My current papers combine original historical district data, the German Socio-Economic Panel (SOEP-Core), and local housing-market data to study family transitions in Germany.
+My research is in **labor and demographic economics**, particularly migration, fertility and family formation, and **urban and regional economics**, with a focus on housing. My current papers combine original historical district data, the German Socio-Economic Panel (SOEP), and local housing-market data to study family transitions in Germany.
 
 ## Job Market Paper
 
