@@ -6,7 +6,10 @@ permalink: /teaching/introductory-migration-economics/
 venue: "Ruhr University Bochum, Chair of Empirical Economics"
 date: 2025-10-15
 location: "Bochum, Germany"
-excerpt: "Designed and taught by Ali Demir in winter semester 2025/26. English-language undergraduate seminar; syllabus and lecture notes available."
+excerpt: |-
+  I designed and taught this seminar in English in winter 2025/26. In a workshop on the Mariel Boatlift, students compared how economists chose comparison groups and why those choices led to different conclusions about immigration’s effects on wages.
+
+  [Syllabus (PDF)](/files/Introductory_Migration_Economics_Syllabus.pdf) · [Lecture notes (PDF)](/files/Introductory_Migration_Economics_Lecture_Notes.pdf)
 ---
 
 **Role:** Instructor and course designer  
