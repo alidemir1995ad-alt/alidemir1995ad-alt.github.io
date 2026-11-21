@@ -28,7 +28,7 @@ Using SOEP-Core, I study homeownership and fertility among West German women wit
 
 ### Transition to Adulthood: Local Rents and Leaving the Parental Home
 
-I link SOEP-Core residence histories to RWI-GEO-REDX quality-adjusted rent indices at the parental-home postal code to study young adults' first exit from the parental home, with heterogeneity by migration background. Across locations, higher rents predict earlier exit, consistent with high-rent areas being opportunity-rich. Within postal codes over time, the rent gradient turns weakly negative and imprecise. Bounds rule out large affordability effects, while lead–lag placebo tests attribute part of the remaining gradient to local trends rather than rents. These patterns distinguish spatial differences from changes within places; they do not establish a causal effect of rents on exit timing.
+Do rising rents near the parental home delay young adults’ first move out? I link German Socio-Economic Panel (SOEP) residence histories to local apartment rents (RWI-GEO-REDX) and compare young adults living in the same postal code in different years. Among those without a migration background, a 10% increase in local rents in the previous year is associated with a 0.7 percentage-point lower probability of leaving home that year. The estimate is imprecise, and I find no clear relationship for first- or second-generation immigrants.
 
 *Working paper (2026)* &nbsp;&middot;&nbsp; [Draft available upon request](mailto:Ali.Demir-l1f@ruhr-uni-bochum.de?subject=Working%20paper%20request:%20Transition%20to%20Adulthood)
 
