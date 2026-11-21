@@ -8,7 +8,7 @@ excerpt: "Contact Ali Demir about postdoctoral positions, research economist opp
 
 {% include base_path %}
 
-I welcome enquiries about postdoctoral and research economist positions in Germany, as well as research collaborations in applied microeconomics.
+I welcome enquiries about postdoctoral and research economist positions, as well as research collaborations in applied microeconomics.
 
 **Email:** [alidemir1995@protonmail.com](mailto:alidemir1995@protonmail.com)  
 **University email:** [ali.demir-l1f@ruhr-uni-bochum.de](mailto:ali.demir-l1f@ruhr-uni-bochum.de)  
