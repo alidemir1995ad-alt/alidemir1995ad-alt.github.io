@@ -27,3 +27,17 @@ Using SOEP-Core, I study homeownership and fertility among West German women wit
 ### Transition to Adulthood: Local Rents and Leaving the Parental Home
 
 I link SOEP-Core residence histories to RWI-GEO-REDX quality-adjusted rent indices at the parental-home postal code to study young adults' first exit from the parental home, with heterogeneity by migration background. Across locations, higher rents predict earlier exit, consistent with high-rent areas being opportunity-rich. Within postal codes over time, the rent gradient turns weakly negative and imprecise. Bounds rule out large affordability effects, while lead–lag placebo tests attribute part of the remaining gradient to local trends rather than rents. These patterns distinguish spatial differences from changes within places; they do not establish a causal effect of rents on exit timing.
+
+## Research Agenda
+
+### Does giving up a low rent to move to a larger home delay a second birth?
+
+For parents with a spare room, a favorable lease can make a second child easier to afford. Parents who need more space may have to pay the current market rent on the whole flat when they move. I plan to study how this trade-off shapes when renters in Germany have a second child and whether they move or raise both children in their current home.
+
+### Do Germany’s benefit rules for young adults under 25 affect when they leave the parental home?
+
+Young adults receiving income support may need prior approval for rent to be covered after a move. Staying at home can also reduce their entitlement when their parents’ income is counted. I plan to examine how these two rules together affect whether young adults live with a parent and how the response varies with family resources.
+
+### Does affordable housing near employers help more school leavers start an apprenticeship?
+
+School leavers can often commute to a nearby firm from the parental home. Accepting an offer farther away may mean paying rent on an apprentice’s wage. I plan to study whether access to affordable accommodation changes where young people train and whether it enables those who would otherwise miss out to start and complete an apprenticeship.
