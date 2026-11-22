@@ -45,3 +45,7 @@ Young adults receiving income support may need prior approval for rent to be cov
 ### Does affordable housing near employers help more school leavers start an apprenticeship?
 
 School leavers can often commute to a nearby firm from the parental home. Accepting an offer farther away may mean paying rent on an apprentice’s wage. I plan to study whether access to affordable accommodation changes where young people train and whether it enables those who would otherwise miss out to start and complete an apprenticeship.
+
+### Did COVID-19 restrictions increase support for the far right in Germany and the United States?
+
+School closures disrupted work and childcare and may have drawn voters toward candidates who opposed them. Opposition to restrictions could also reflect political preferences that predated the pandemic. I plan to study whether longer closures changed turnout or support for the AfD in Germany and for far-right candidates in US elections, taking local infection trends into account. I am particularly interested in whether any electoral response persisted after schools reopened.
