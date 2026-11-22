@@ -49,3 +49,35 @@ School leavers can often commute to a nearby firm from the parental home. Accept
 ### Did COVID-19 restrictions increase support for the far right in Germany and the United States?
 
 School closures disrupted work and childcare and may have drawn voters toward candidates who opposed them. Opposition to restrictions could also reflect political preferences that predated the pandemic. I plan to study whether longer closures changed turnout or support for the AfD in Germany and for far-right candidates in US elections, taking local infection trends into account. I am particularly interested in whether any electoral response persisted after schools reopened.
+
+
+
+
+
+
+{% comment %}
+Research ideas to revisit
+
+1. Does building more family-sized housing change how many children existing residents have? A city can record more births after larger apartments are built because residents have another child, because families expecting a child move in, or because growing families stay instead of leaving. I would follow people who lived in the area before construction, including those who later move away. This would distinguish a policy that changes family size from one that changes where families raise their children.
+
+2. Does giving up a below-market lease delay a second birth for renters who need another room? For parents with a spare room, low rent can make a second child easier to afford. For parents in a smaller flat, moving means paying current market rents on the space they already occupy as well as on the extra room. I would study whether these families postpone a second birth, move before having another child, or raise two children in their existing home.
+
+3. Does access to affordable housing help school leavers start apprenticeships they would otherwise forgo? Two firms can offer the same training wage, yet only one offer may be affordable if a young person can commute to it from the parental home. I would examine whether access to accommodation before applicants choose a placement changes who enters and completes training. The policy payoff depends on how many additional young people train and how many simply choose a different employer or town.
+
+4. Does delayed access to a first mortgage widen the wealth gap between migrant and native-born households? Households with similar earnings can enter homeownership years apart if one can draw on family wealth for a deposit and the other must save from wages. Buying earlier exposes a household to leveraged gains when prices rise and to larger losses when they fall. I would study how a change in mortgage access affects the subsequent net wealth of first-time buyers and whether its effects differ by migration background and parental resources.
+
+5. Do brief childcare closures leave lasting gaps in mothers’ and fathers’ earnings after care resumes? When a nursery closes unexpectedly, one parent may reduce hours or give up a shift to cover care. If that interruption costs a promotion, prompts a job change, or alters how the couple divides paid work, its effects can outlast the closure itself. I would follow both parents after reopening to determine when a temporary loss of care becomes a persistent career cost.
+{% endcomment %}
+
+
+
+
+
+
+
+
+
+
+
+
+
