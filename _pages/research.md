@@ -20,9 +20,9 @@ After German reunification, divorce rates fell in West German districts with str
 
 ## Working Papers
 
-### Homeownership and Family Expansion: Evidence from German Homeownership
+### Homeownership and Family Expansion: Evidence from Germany
 
-Using SOEP-Core, I study homeownership and fertility among West German women with district and year fixed effects and parental homeownership as an instrument. Homeownership accelerates the transition from first to second birth, while the effect on the cumulative number of children is small and statistically insignificant, consistent with a **tempo effect**. Effects on completed family size remain open. Estimates are local to women whose ownership depends on their parents' ownership, and inference is robust to weak instruments.
+Does homeownership raise fertility? Using the German Socio-Economic Panel (SOEP), I instrument own homeownership with parental homeownership among West German women, comparing women within the same years and districts. The evidence is informative at the transition from a first to a second child: the estimates imply that owner-occupation raises the annual probability of a second birth by 15 to 24 percentage points from a baseline of 11 percent, with weak-instrument-robust intervals that exclude zero but are wide. Estimates for first and third births and for the number of children are too imprecise to show or rule out effects. Parental homeownership also provides rent-free and reduced-rent housing, a channel outside own ownership; if this housing affects fertility as ownership does, the effect of ownership is about 10 percentage points.
 
 *Working paper (2026)* &nbsp;&middot;&nbsp; [Download PDF](/files/Demir_Homeownership_Fertility.pdf)
 
